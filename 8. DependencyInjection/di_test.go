@@ -14,7 +14,6 @@ func TestGreet(t *testing.T){
 	got := buffer.String()
 	want := "Hello, Rafi"
 
-
 	if got!= want {
 		t.Errorf("got %q want %q", got, want)
 	}
