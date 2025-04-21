@@ -5,8 +5,15 @@ import (
 	"fmt"
 )
 
+type A struct {
 
+}
 
-func Greet(writer *bytes.Buffer, str string){
+type Swimmer interface {
+
+}
+
+func Greet(writer *bytes.Buffer, str string) {
 	fmt.Fprintf(writer, "Hello, %s", str)
 }
+
